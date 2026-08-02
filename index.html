@@ -1,170 +1,98 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean Portfolio</title>
+    <title>Azelia Zerlina | Portfolio</title>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- NAVIGASI -->
-    <nav>
-    <div class="logo">Sean.dev</div>
-    <div class="menu">
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        
-        <button id="theme-toggle" class="theme-btn">
-            <i class="fa-solid fa-moon"></i>
-        </button>
-    </div>
-</nav>
+    <nav data-aos="fade-down" data-aos-duration="1000">
+        <div class="logo">azelia.dev</div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#goals">Goals</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
-    <!-- HERO SECTION -->
     <section class="hero">
-       <span class="tag" id="typing-text"></span>
-        <h1>Sean Rendy Emmanuel</h1>
-        <p>Building skills in networking, web development, and digital creativity.</p>
-        <a href="#about" class="btn">Explore</a>
+        <span class="tag" data-aos="fade-down" data-aos-delay="200">Computer Network Engineering Student</span>
+        <h1 data-aos="fade-up" data-aos-delay="400">Azelia Zerlina</h1>
+        <p data-aos="fade-up" data-aos-delay="600">Building technical foundations in networking, mastering global communication, and growing through journaling.</p>
+        <a href="#about" class="btn" data-aos="zoom-in" data-aos-delay="800">Discover More</a>
     </section>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="about hidden">
-        <h2>About Me</h2>
-        <p>
-            I am a Networking Student who has been fully immersed in the PC world since the age of 3 ( 2013 ). 
-            This lifelong passion naturally led me into the creative industry, where I have been actively thriving 
-            as a <strong>Digital Creator</strong> since 2017, managing various digital content productions, 
-            editing, and visual media creation.
+    <section id="about" class="about">
+        <h2 data-aos="fade-right">About Me</h2>
+        <p data-aos="fade-up" data-aos-delay="200">
+            I am a Computer Network Engineering student with a strong passion for continuous self-development. While building my technical background in networking, I am focusing on mastering English as an essential global bridge.
         </p>
-        <p style="margin-top: 15px;">
-            Recently, I have expanded my horizons by diving into <strong>Front-End Web Development</strong>. 
-            By blending my technical background in computer networking, years of content creation experience, 
-            and growing coding skills, I am focused on building web experiences that are not only architecturally solid 
-            but also highly interactive and aesthetically compelling.
+        <p style="margin-top: 15px;" data-aos="fade-up" data-aos-delay="300">
+            Alongside my interest in language, I am dedicated to personal growth and journaling, with a long-term goal of writing a book to inspire others. Driven by a structured and systematic approach, I am committed to improving myself step by step so I can become a meaningful individual who brings a positive impact and value to everyone around me.
         </p>
     </section>
 
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="skills hidden">
-        <h2>Skills</h2>
+    <section id="goals" class="goals" style="padding: 100px 10%;">
+        <h2 data-aos="fade-right">Core Focus & Aspirations</h2>
         <div class="skill-grid">
-            <div class="skill-card">
+            <div class="skill-card" data-aos="flip-up" data-aos-delay="100">
                 <div class="skill-icon">🌐</div>
-                Networking
+                <div>
+                    <h3>Network Engineering</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">Building core technical foundations and system logic.</p>
+                </div>
             </div>
-            <div class="skill-card">
-                <div class="skill-icon">💻</div>
-                HTML & CSS
+            <div class="skill-card" data-aos="flip-up" data-aos-delay="200">
+                <div class="skill-icon">💬</div>
+                <div>
+                    <h3>English Mastery</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">Connecting globally through language and effective communication.</p>
+                </div>
             </div>
-            <div class="skill-card">
-                <div class="skill-icon">🎮</div>
-                Roblox Studio 
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">🎬</div>
-                Contributor
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">🔧</div>
-                PC Troubleshooting
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">🖥️</div>
-                Blender Animator 
-            </div>
-			<div class="skill-card">
-                <div class="skill-icon">🖥️</div>
-                GFX Designer 
-            </div>
-			<div class="skill-card">
-                <div class="skill-icon">🛠️</div>
-                UGC Creator
-            </div>
-			<div class="skill-card">
-				<div class="skill-icon">🖥️</div>
-				Management Content
-			</div>
-			<div class="skill-card">
-				<div class="skill-icon">🖥️</div>
-				Roleplay Staff
-			</div>
-			<div class="skill-card">
-				<div class="skill-icon">🔨</div>
-				Moderator XReverse
-			</div>
-        </div>
-    </section>
-
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="projects hidden">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>Personal portfolio website built with HTML, CSS, and JavaScript featuring custom smooth animations.</p>
-            </div>
-            <div class="project-card">
-                <h3>Roblox Project</h3>
-                <p>Various Roblox-related creations, map scripting, and interactive experiences.</p>
-            </div>
-            <div class="project-card">
-                <h3>Networking</h3>
-                <p>Networking configurations, router setups, and computer hardware troubleshooting projects.</p>
+            <div class="skill-card" data-aos="flip-up" data-aos-delay="300">
+                <div class="skill-icon">📖</div>
+                <div>
+                    <h3>Journaling & Writing</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">Practicing structured personal growth with a long-term vision of publishing a book.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="contact hidden">
-        <h2>Contact</h2>
-        <div class="contact-box">
-            <p>Use this contact for more knowing about me!</p>
-            <div class="contact-links">
-    <!-- Discord -->
-    <a href="https://discord.com" target="_blank" class="contact-item discord">
-        <span class="icon"><i class="fa-brands fa-discord"></i></span>
-        <div class="info">
-            <span class="label">Discord</span>
-            <span class="username">seannverse</span>
-        </div>
-    </a>
-
-    <!-- Instagram -->
-    <a href="https://instagram.com/xsnuel" target="_blank" class="contact-item instagram">
-        <span class="icon"><i class="fa-brands fa-instagram"></i></span>
-        <div class="info">
-            <span class="label">Instagram</span>
-            <span class="username">@xsnuel</span>
-        </div>
-    </a>
-
-    <!-- TikTok -->
-    <a href="https://tiktok.com/@vnuelz" target="_blank" class="contact-item tiktok">
-        <span class="icon"><i class="fa-brands fa-tiktok"></i></span>
-        <div class="info">
-            <span class="label">TikTok</span>
-            <span class="username">@vnuelz</span>
-        </div>
-    </a>
-</div>
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-right">Get in Touch</h2>
+        <div class="contact-container" data-aos="fade-up" style="display: flex; justify-content: center;">
+            <div class="contact-box left-box" style="width: 100%; max-width: 450px;">
+                <p>Feel free to reach out or connect with me via Instagram!</p>
+                <div class="contact-links">
+                    <a href="https://www.instagram.com/azzrlnhr_/" target="_blank" class="contact-item instagram">
+                        <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+                        <div class="info">
+                            <span class="label">Instagram</span>
+                            <span class="username">@azeliazerlina</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>© 2026 Nueliz. All Rights Reserved.</p>
+        <p>© 2026 Azelia Zerlina. All Rights Reserved.</p>
     </footer>
 
-    <div class="cursor-glow"></div>
-
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true, offset: 100 });
+    </script>
 </body>
 </html>
