@@ -3,91 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azelia Zerlina | Portfolio</title>
+    <title>Azelia Zerlina — Personal & Professional Portfolio</title>
     
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-    <nav data-aos="fade-down" data-aos-duration="1000">
-        <div class="logo">azelia.dev</div>
-        <div class="menu">
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#goals">Goals</a>
-            <a href="#contact">Contact</a>
+    <header class="header-nav" data-aos="fade-down" data-aos-duration="1000">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">azelia<span>.</span></a>
+            <nav class="nav-menu">
+                <a href="#about">Overview</a>
+                <a href="#vision">Vision</a>
+                <a href="#journal">Journaling</a>
+                <a href="#connect">Connect</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <section class="hero">
-        <span class="tag" data-aos="fade-down" data-aos-delay="200">Computer Network Engineering Student</span>
-        <h1 data-aos="fade-up" data-aos-delay="400">Azelia Zerlina</h1>
-        <p data-aos="fade-up" data-aos-delay="600">Building technical foundations in networking, mastering global communication, and growing through journaling.</p>
-        <a href="#about" class="btn" data-aos="zoom-in" data-aos-delay="800">Discover More</a>
+    <section class="hero-section">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <span class="hero-tag">✨ Aspiring Author & Tech Explorer</span>
+            <h1>Azelia Zerlina</h1>
+            <p>Bridging technical engineering logic with structured personal growth, global communication, and deep-dive writing.</p>
+            <div class="hero-actions">
+                <a href="#about" class="primary-btn">Explore Profile</a>
+                <a href="#connect" class="secondary-btn">Let's Connect</a>
+            </div>
+        </div>
     </section>
 
-    <section id="about" class="about">
-        <h2 data-aos="fade-right">About Me</h2>
-        <p data-aos="fade-up" data-aos-delay="200">
-            I am a Computer Network Engineering student with a strong passion for continuous self-development. While building my technical background in networking, I am focusing on mastering English as an essential global bridge.
-        </p>
-        <p style="margin-top: 15px;" data-aos="fade-up" data-aos-delay="300">
-            Alongside my interest in language, I am dedicated to personal growth and journaling, with a long-term goal of writing a book to inspire others. Driven by a structured and systematic approach, I am committed to improving myself step by step so I can become a meaningful individual who brings a positive impact and value to everyone around me.
-        </p>
+    <section id="about" class="content-section">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-right">
+                <span class="sub-heading">01 / Who I Am</span>
+                <h2>Dedicated to Meaningful Growth.</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text-card" data-aos="fade-up" data-aos-delay="200">
+                    <p>
+                        I am a Computer Network Engineering student with a strong passion for continuous self-development. While building my technical background in networking, I am focusing on mastering English as an essential global bridge.
+                    </p>
+                </div>
+                <div class="about-text-card" data-aos="fade-up" data-aos-delay="300">
+                    <p>
+                        Alongside my interest in language, I am dedicated to personal growth and journaling, with a long-term goal of writing a book to inspire others. Driven by a structured and systematic approach, I am committed to improving myself step by step so I can become a meaningful individual who brings a positive impact and value to everyone around me.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="goals" class="goals" style="padding: 100px 10%;">
-        <h2 data-aos="fade-right">Core Focus & Aspirations</h2>
-        <div class="skill-grid">
-            <div class="skill-card" data-aos="flip-up" data-aos-delay="100">
-                <div class="skill-icon">🌐</div>
-                <div>
+    <section id="vision" class="content-section alt-bg">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-right">
+                <span class="sub-heading">02 / Core Pillars</span>
+                <h2>Core Focus & Aspirations</h2>
+            </div>
+            <div class="pillars-grid">
+                <div class="pillar-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="pillar-icon"><i class="fa-solid fa-network-wired"></i></div>
                     <h3>Network Engineering</h3>
-                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">Building core technical foundations and system logic.</p>
+                    <p>Building strong analytical foundations, system structures, and technical logic for modern infrastructure.</p>
                 </div>
-            </div>
-            <div class="skill-card" data-aos="flip-up" data-aos-delay="200">
-                <div class="skill-icon">💬</div>
-                <div>
+                <div class="pillar-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="pillar-icon"><i class="fa-solid fa-globe"></i></div>
                     <h3>English Mastery</h3>
-                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">Connecting globally through language and effective communication.</p>
+                    <p>Leveraging language proficiency as a fundamental bridge for cross-border communication and global opportunities.</p>
                 </div>
-            </div>
-            <div class="skill-card" data-aos="flip-up" data-aos-delay="300">
-                <div class="skill-icon">📖</div>
-                <div>
+                <div class="pillar-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="pillar-icon"><i class="fa-solid fa-feather-pointed"></i></div>
                     <h3>Journaling & Writing</h3>
-                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">Practicing structured personal growth with a long-term vision of publishing a book.</p>
+                    <p>Documenting structured insights and personal progress, aiming to publish an inspiring book in the future.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2 data-aos="fade-right">Get in Touch</h2>
-        <div class="contact-container" data-aos="fade-up" style="display: flex; justify-content: center;">
-            <div class="contact-box left-box" style="width: 100%; max-width: 450px;">
-                <p>Feel free to reach out or connect with me via Instagram!</p>
-                <div class="contact-links">
-                    <a href="https://instagram.com" target="_blank" class="contact-item instagram">
-                        <span class="icon"><i class="fa-brands fa-instagram"></i></span>
-                        <div class="info">
-                            <span class="label">Instagram</span>
-                            <span class="username">@azeliazerlina</span>
+    <section id="journal" class="content-section">
+        <div class="section-container text-center" data-aos="fade-up">
+            <span class="sub-heading">03 / Philosophy</span>
+            <blockquote class="quote-box">
+                "Improve yourself step by step, become a meaningful individual who brings positive impact and value to everyone around you."
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="connect" class="content-section alt-bg">
+        <div class="section-container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="sub-heading">04 / Reach Out</span>
+                <h2>Let's Stay Connected</h2>
+            </div>
+            <div class="connect-card-wrapper" data-aos="zoom-in" data-aos-delay="200">
+                <div class="connect-card">
+                    <div class="connect-info">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div>
+                            <h4>Instagram Profile</h4>
+                            <span>@azeliazerlina</span>
                         </div>
-                    </a>
+                    </div>
+                    <a href="https://instagram.com" target="_blank" class="connect-link-btn">Follow & Connect <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>© 2026 Azelia Zerlina. All Rights Reserved.</p>
+        <p>© 2026 Azelia Zerlina. Crafted with intention & grace.</p>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
